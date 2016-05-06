@@ -39,6 +39,11 @@
         return account.transactions.reduce((acc, t) => acc + t.amount, 0);
       },
 
+      getTransactions: function getBalance(id) {
+          const account = this.accounts[0];
+          return account.transactions;
+      }
+
       // getAccounts: function getAccounts() {
       //   return this.accounts;
       // },

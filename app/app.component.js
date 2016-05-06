@@ -5,7 +5,7 @@
     .Component({
       selector: 'my-app',
       templateUrl: 'app/app.component.html',
-      directives: [app.AccountComponent],
+      directives: [app.AccountComponent, app.TransactionsComponent],
     })
     .Class({
       constructor: function constructor() {},
