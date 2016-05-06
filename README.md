@@ -6,5 +6,5 @@ Your own banking system (as-a-Service?)!
 
 * Debit Account
 * Credit Account
-* List
-* Sum
+* List Account Transactions
+* Account Balance
